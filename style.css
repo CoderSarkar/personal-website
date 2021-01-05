@@ -1,0 +1,66 @@
+body{
+
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.personal-web{
+    height: 400px;
+    margin-top: 30px;
+}
+.personal-data{
+
+    width: 40%;
+    float: left;
+    margin-left: 5px;
+    padding: 20px;
+    height: 30%;
+    margin-top: 20px;
+}
+.top{
+    margin-top: 200px;
+}
+.information{
+    padding: 40px;
+}
+.information h1{
+    font-size: 50px;
+}
+.information h2{
+    font-size: 30px;
+    color: orange;
+}
+.personal-data img{
+
+    width: 100%;
+}
+
+.activities{
+
+    width: 20%;
+    padding: 2px;
+    padding-left: 25px;
+    margin-left: 8%;
+    float: left;
+    box-shadow: 10px 10px 20px purple;
+    height: 100%;
+    border-radius: 10px;
+}
+.work h1{
+
+    text-align: center;
+    font-size: 30px;
+}
+.work{
+    height: 400px;
+    margin-top: 300px;
+}
+.activities img{
+    width: 100%;
+}
+.work h1{
+
+    padding-bottom: 20px;
+}
+#color-highlight{
+    color: rgb(255, 166, 0);
+}
