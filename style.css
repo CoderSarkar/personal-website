@@ -3,9 +3,42 @@ body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
+
+.menu-bar{
+    height: 80px;
+    background-image: linear-gradient( 70deg, rgb(0, 255, 149), rgba(255, 0, 106, 0.527) );
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 40px gray;
+}
+#menu{
+    float: right;
+    margin-right: 40px;
+}
+#menu li a{
+    text-decoration: none;
+    color: wheat;
+
+}
+#menu li{
+    display: inline;
+    padding: 10px 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
 .personal-web{
-    height: 400px;
+    background-color: rgba(235, 228, 228, 0.808);
+    height: 700px;
     margin-top: 30px;
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 40px rgba(250, 128, 114, 0.575);
+    
 }
 .personal-data{
 
@@ -14,11 +47,9 @@ body{
     margin-left: 5px;
     padding: 20px;
     height: 30%;
-    margin-top: 20px;
+    margin-top: 80px;
 }
-.top{
-    margin-top: 200px;
-}
+
 .information{
     padding: 40px;
 }
@@ -34,15 +65,33 @@ body{
     width: 100%;
 }
 
+.link-button{
+
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+}
+
+.work{
+    width: 90%;
+    height: 750px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: rgba(207, 207, 201, 0.945);
+    box-shadow: 10px 10px 30px salmon;
+}
 .activities{
 
-    width: 20%;
-    padding: 2px;
-    padding-left: 25px;
-    margin-left: 8%;
+    width: 22%;
+    height:52%;
+    padding: 15px;
+    margin-left: 6%;
     float: left;
-    box-shadow: 10px 10px 20px purple;
-    height: 100%;
+    box-shadow: 10px 10px 20px rgba(100, 7, 100, 0.445);    
     border-radius: 10px;
 }
 .work h1{
@@ -50,17 +99,91 @@ body{
     text-align: center;
     font-size: 30px;
 }
-.work{
-    height: 400px;
-    margin-top: 300px;
-}
+
 .activities img{
     width: 100%;
+    margin-right: 2%;
+    padding-right: 2%;
+
+}
+.activities h2{
+    color: rgba(89, 10, 92, 0.534);
 }
 .work h1{
 
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 #color-highlight{
     color: rgb(255, 166, 0);
 }
+.foter-part{
+
+    height: 800px;
+    width: 90%;
+    margin-top: 180px;
+    margin-left: 50px;
+
+}
+
+
+.work-inquary{
+
+
+    height: 250px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 115px;
+    float: left;
+    text-align: center;
+    background-image: url(shapes/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    display: inline;
+    float: left;
+    
+
+}
+.first-div{
+    float: left;
+    margin-left: 20px;
+}
+.second-div{
+    float: left;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.first-div h2{
+
+    font-size: 30px;
+    color: wheat;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.second-div a{
+
+    background-color: tomato;
+    padding: 10px 15px;
+}
+
+
+.icon{
+    text-align: center;
+    float: left;
+    height: 200px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 200px;    
+
+}
+.icon img{
+
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+
+
